@@ -1,0 +1,83 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[lmargin=2cm,rmargin=2cm,tmargin=2cm,bmargin=2.5cm]{geometry}
+
+\usepackage{ae}	
+\usepackage{gensymb}
+
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+
+
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[L]{Cahier de projet}
+\fancyhead[R]{Projet Algo \& C}
+\fancyfoot[L]{Professeurs encadrants : \\Luc Brun et Eric Ziad}
+\fancyfoot[R]{ENSICAEN - 1A Informatique\\ Année scolaire : 2021-2022}
+
+\usepackage{lmodern}
+\usepackage{ae}
+\usepackage{enumerate}
+
+\def\sqw{\hbox{\rlap{\leavevmode\raise.3ex\hbox{$\sqcap$}}$%
+\sqcup$}}
+\def\sqb{\hbox{\hskip5pt\vrule width4pt height6pt depth1.5pt%
+\hskip1pt}}
+\newcommand{\hsp}{\hspace{20pt}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+
+
+
+\begin{document}
+
+\tableofcontents
+\newpage
+\part{Semaine 1}
+\section{Séance 25/11/2021 (début 13h)}
+\subsection{Quelques informations}
+\begin{itemize}
+
+\item Méthode d'inversion de table : admettons qu'on a une image avec un pixel qui est vert. Admettons aussi que notre table de couleur est composé de rouge et bleu. \\
+Le pixel va se transformer en la couleur la plus proche entre le rouge et le bleu. \\
+
+\item Le dossier ressource est à cherche dans la racine sur le serveur ssh (voir moodle pour plus d'information)\\
+\item Installer GIMP (pour ouvrir les images)
+\end{itemize}
+\subsection{Arborescence du dossier (dans le gros dossier Projet Algo \& C}
+\begin{itemize}
+\item Un sous fichier src
+\item Un sous fichier test (pour minunit)
+\item Un sous fichier ressource (qui ont été mis à disposition sur Cybele)
+\item Un sous fichier doc (pour la génération de la documentation avec Doxygen)
+\item Un (sous fichier??) pour le makefile
+\item Un sous dossier include pour unclure tout les fichiers .h (headers)
+\end{itemize}
+
+\subsection{Fichier image.c}
+
+\subsubsection{Comprendre le dossier fichier image.c}
+\subsubsection{Liste des fonctions et ce qu'ils font}
+
+\begin{itemize}
+\item void DEFAIRE\_image (image self) --> Initialise une image vide
+\item 
+\end{itemize}
+\subsubsection{Liste des structures}
+\subsection{Implementation de la méthode triviale}
+\begin{itemize}
+\item Pour charger une image, il faut d'abord initialiser une image vide, pour cela, il faut qu'on utilise la fonction image\_initialize
+\end{itemize}
+\end{document}
